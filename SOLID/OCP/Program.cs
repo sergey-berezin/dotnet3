@@ -10,6 +10,8 @@ namespace Geometry
     {
         void VisitRectangle(Rect r);
         void VisitCircle(Circle c);
+
+//        void VisitPolygon(Polygon p);
     }
 
     public abstract class Shape
@@ -35,6 +37,19 @@ namespace Geometry
 
         public override void Accept(IVisitor v) => v.VisitCircle(this);
     }
+
+    //public class Polygon : Shape
+    //{
+    //    public override void Accept(IVisitor v)
+    //    {
+    //        v.VisitPolygon(this);
+    //    }
+
+    //    public override double GetSquare()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 }
 
 namespace Rendering
