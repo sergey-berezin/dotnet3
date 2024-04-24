@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plotter", "Plotter\Plotter.csproj", "{6900E649-7DCC-4F55-937D-4C1E9FAC7905}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evaluator", "Evaluator\Evaluator.csproj", "{C0B25B17-4D7B-4C7D-A7D4-A5D0C83C5266}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlotterMVVM", "PlotterMVVM\PlotterMVVM.csproj", "{0E16AE8C-93D4-468C-8F15-59A48E4F4492}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlotterViewModel", "PlotterViewModel\PlotterViewModel.csproj", "{481156F0-EA93-45CA-9AE2-A3F7C34D5A96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlotterViewModelTests", "PlotterViewModelTests\PlotterViewModelTests.csproj", "{63DF9DE7-A048-47F9-AA56-BA6F5BEAC92C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluatorTests", "EvaluatorTests\EvaluatorTests.csproj", "{76979CCF-8E30-4ED6-BE9C-781AD089A9A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6900E649-7DCC-4F55-937D-4C1E9FAC7905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6900E649-7DCC-4F55-937D-4C1E9FAC7905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6900E649-7DCC-4F55-937D-4C1E9FAC7905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6900E649-7DCC-4F55-937D-4C1E9FAC7905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B25B17-4D7B-4C7D-A7D4-A5D0C83C5266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B25B17-4D7B-4C7D-A7D4-A5D0C83C5266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B25B17-4D7B-4C7D-A7D4-A5D0C83C5266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B25B17-4D7B-4C7D-A7D4-A5D0C83C5266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E16AE8C-93D4-468C-8F15-59A48E4F4492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E16AE8C-93D4-468C-8F15-59A48E4F4492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E16AE8C-93D4-468C-8F15-59A48E4F4492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E16AE8C-93D4-468C-8F15-59A48E4F4492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481156F0-EA93-45CA-9AE2-A3F7C34D5A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481156F0-EA93-45CA-9AE2-A3F7C34D5A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481156F0-EA93-45CA-9AE2-A3F7C34D5A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481156F0-EA93-45CA-9AE2-A3F7C34D5A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DF9DE7-A048-47F9-AA56-BA6F5BEAC92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DF9DE7-A048-47F9-AA56-BA6F5BEAC92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DF9DE7-A048-47F9-AA56-BA6F5BEAC92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DF9DE7-A048-47F9-AA56-BA6F5BEAC92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76979CCF-8E30-4ED6-BE9C-781AD089A9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76979CCF-8E30-4ED6-BE9C-781AD089A9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76979CCF-8E30-4ED6-BE9C-781AD089A9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76979CCF-8E30-4ED6-BE9C-781AD089A9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5928D0F-D427-4777-AF8F-526CCE7FD698}
+	EndGlobalSection
+EndGlobal
