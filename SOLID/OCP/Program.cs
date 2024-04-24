@@ -11,7 +11,7 @@ namespace Geometry
         void VisitRectangle(Rect r);
         void VisitCircle(Circle c);
 
-//        void VisitPolygon(Polygon p);
+        void VisitPolygon(Polygon p);
     }
 
     public abstract class Shape
@@ -38,18 +38,18 @@ namespace Geometry
         public override void Accept(IVisitor v) => v.VisitCircle(this);
     }
 
-    //public class Polygon : Shape
-    //{
-    //    public override void Accept(IVisitor v)
-    //    {
-    //        v.VisitPolygon(this);
-    //    }
+    public class Polygon : Shape
+    {
+        public override void Accept(IVisitor v)
+        {
+            v.VisitPolygon(this);
+        }
 
-    //    public override double GetSquare()
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-    //}
+        public override double GetSquare()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
 
 namespace Rendering
@@ -66,6 +66,11 @@ namespace Rendering
         {
             Console.WriteLine($"Rendering circle");
 
+        }
+
+        public void VisitPolygon(Polygon p)
+        {
+            throw new NotImplementedException();
         }
 
         public void VisitRectangle(Rect r)
@@ -89,6 +94,11 @@ namespace Persistence
         {
             Console.WriteLine($"Writing circle");
 
+        }
+
+        public void VisitPolygon(Polygon p)
+        {
+            throw new NotImplementedException();
         }
 
         public void VisitRectangle(Rect r)
